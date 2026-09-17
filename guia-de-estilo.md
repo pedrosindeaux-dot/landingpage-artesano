@@ -1,4 +1,4 @@
-# Guia de estilo - Artesano
+z# Guia de estilo - Artesano
 
 Referência visual do projeto: cores, tipografia, medidas e componentes.
 Este guia descreve a aparência, não o código. Nenhum nome de variável, classe
