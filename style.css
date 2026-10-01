@@ -86,13 +86,96 @@ body, html {
 }
 
 
-ul {
+/* ul {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 30px;
     list-style: none;
-    padding: 0;
-    margin: 0;
-    background-color: blue;
+    padding: auto;
+    margin: auto;
+    background-color: yellow;
+} */
+
+/* <nav> */
+.menu {
+  padding: 10px;
+
+}
+/* <ul> */
+.menu-list {
+  list-style: none;
+  display: flex;
+  padding: auto;
+  margin: auto;
+  /* background-color: yellow; */
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+
+}
+/* <li> */
+.menu-item {
+
+ 
+}
+/* <a> */
+.menu-link {
+  text-decoration: none;
+  color: #6a6a6a;
+  font-size: 14px;
+  letter-spacing: 0.26em;
+}
+
+#menu-logo a {
+  display: block;
+  border: 1px solid #000;
+  padding: 8px 10px;
+  text-align: center;
+  color: black;
+  letter-spacing: 0;
+  border-color: #6a6a6a;
+
+}
+
+#menu-logo a:hover {
+color: #6a6a6a;
+border-color: #6a6a6a
+}
+
+
+/* ESTUDIO */
+
+#estudio {
+  background-color: #f4f4f5;
+  height: 75vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+#estudio p{
+  max-width: 400px;
+  text-align: justify;
+}
+
+#estudio-itens {
+  display: flex;
+  gap: 30px;
+
+  
+}
+
+#estudio-itens div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#estudio-itens div img {
+width: 30px;
 }
