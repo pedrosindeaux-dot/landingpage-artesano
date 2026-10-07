@@ -144,30 +144,47 @@ color: #6a6a6a;
 border-color: #6a6a6a
 }
 
+/* sections */
+
+section.light {
+  background-color: #f4f4f5;
+  color:#1f2124;
+}
+
+section.dark {
+  background-color: #1f2124;
+  color:#f4f4f5;
+}
+
+section .section-title {
+  letter-spacing: 0.12em;
+}
+
 
 /* ESTUDIO */
 
 #estudio {
-  background-color: #f4f4f5;
+  /* background-color: #f4f4f5; */
   height: 75vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 30px;
+  gap: 60px;
 }
 
 #estudio p{
-  max-width: 400px;
-  text-align: justify;
+  max-width: 500px;
+  text-align: center;
 }
 
 #estudio-itens {
   display: flex;
-  gap: 30px;
-
+  gap: 160px;
   
 }
+
+
 
 #estudio-itens div {
   display: flex;
